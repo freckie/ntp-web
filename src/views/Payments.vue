@@ -112,7 +112,7 @@ export default {
       newPaymentModal: false,
       updatePaymentModal: false,
       cardNumbers: ['', '', '', ''],
-      brands: [ 
+      brands: [
         {
           text: '카드 브랜드를 선택해주세요.',
           value: '',
@@ -138,9 +138,9 @@ export default {
     }
   },
   methods: {
-    openUpdatePaymentModal(card) {
-      this.updatePaymentModal = true;
-      this.cardForManaging = card;
+    openUpdatePaymentModal (card) {
+      this.updatePaymentModal = true
+      this.cardForManaging = card
     }
   }
 }
