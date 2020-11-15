@@ -25,6 +25,7 @@
           <v-btn
             outlined
             color="white"
+            @click="openUpdatePaymentModal(idx)"
           >
             관&nbsp;리
           </v-btn>
@@ -53,6 +54,11 @@ export default {
           registration: '2020-11-03'
         }
       ]
+    }
+  },
+  methods: {
+    openUpdatePaymentModal(cardIdx) {
+      this.$emit('paymentCardsEvent', this.cards[cardIdx])
     }
   }
 }
