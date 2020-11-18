@@ -9,14 +9,14 @@
       >
         <v-card-text style="color: white !important">
           <p
-            class="headline text--primary font-weight-light text-left credit-item-text"
+            class="headline text--primary font-weight-bold text-left credit-item-text"
             style="color: white !important"
           >
             잔여 크레딧
           </p>
           <br>
           <p
-            class="display-1 text--primary font-weight-bold text-right credit-item-text"
+            class="display-1 text--primary font-weight-light text-right credit-item-text"
             style="color: white !important"
           >
             {{ credits }} ￦

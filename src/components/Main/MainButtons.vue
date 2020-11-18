@@ -65,6 +65,7 @@ export default {
   height: 100%;
   margin: 10px;
   background-color: white !important;
+  border-radius: 10px;
 
   .main-button-inner {
     width: 100%;
